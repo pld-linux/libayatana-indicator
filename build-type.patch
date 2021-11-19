@@ -1,0 +1,16 @@
+--- libayatana-indicator-0.9.0/CMakeLists.txt.orig	2021-11-17 14:11:58.000000000 +0100
++++ libayatana-indicator-0.9.0/CMakeLists.txt	2021-11-19 11:58:38.251823192 +0100
+@@ -11,13 +11,6 @@
+ option(ENABLE_COVERAGE "Enable coverage reports (includes enabling all tests and checks)" OFF)
+ option(ENABLE_WERROR "Treat all build warnings as errors" OFF)
+ 
+-if(ENABLE_COVERAGE)
+-    set(ENABLE_TESTS ON)
+-    set(CMAKE_BUILD_TYPE "Coverage")
+-else()
+-    set(CMAKE_BUILD_TYPE "Release")
+-endif()
+-
+ if(ENABLE_WERROR)
+     set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Werror")
+     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Werror")

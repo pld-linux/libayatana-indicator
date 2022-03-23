@@ -5,7 +5,7 @@ Summary:	Shared functions for Ayatana indicators (GTK+ 2.x version)
 Summary(pl.UTF-8):	Funkcje współdzielone dla wskaźników Ayatana (wersja dla GTK+ 2.x)
 Name:		libayatana-indicator
 Version:	0.9.1
-Release:	1
+Release:	2
 License:	GPL v3
 Group:		Libraries
 #Source0Download: https://github.com/AyatanaIndicators/libayatana-indicator/releases

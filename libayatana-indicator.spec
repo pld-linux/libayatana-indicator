@@ -85,7 +85,7 @@ wykorzystujących bibliotekę libayatana-indicator (w wersji dla GTK+
 
 %prep
 %setup -q
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 # we build it twice, once against GTK+ 3 and once against GTK+ 2, so
